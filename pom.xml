@@ -77,6 +77,8 @@
                       <arguments>
                           <argument>buildx</argument>
                           <argument>build</argument>
+                          <argument>--platform</argument>
+                          <argument>linux/arm64/v8,linux/amd64</argument>
                           <argument>-f</argument>
                           <argument>Dockerfile</argument>
                           <argument>-t</argument>
