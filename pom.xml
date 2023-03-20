@@ -83,7 +83,7 @@
                           <argument>Dockerfile</argument>
                           <argument>-t</argument>
                           <argument>tmoreira2020/${project.artifactId}:${project.version}</argument>
-                          <argument>--load</argument>
+                          <argument>--push</argument>
                           <argument>.</argument>
                       </arguments>
                   </configuration>
